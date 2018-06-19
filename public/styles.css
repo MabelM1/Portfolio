@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Spectral+SC");
+
+body {
+	height: 100%;
+	width: 100%;
+	font-family: "Spectral SC", serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+.navbar-custom {
+	background-color: white;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+	color: #c0afbd;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+	color: rgba(161, 204, 165, 1);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+	//color: rgba(36, 130, 50, 1);
+	//color: rgba(221, 110, 66, 1);
+	//color: rgba(161, 204, 165, 1);
+	color: #53d8fb;
+}
+
+#about p {
+	letter-spacing: 0.1em;
+	line-height: 2em;
+}
+
+#home {
+	background: #ff0084 no-repeat center center fixed;
+	display: table;
+	height: 100vh;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	//z-index: 2;
+}
+
+/*.circle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 45vh;
+  height: 40vh;
+  background: #22DBE6;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);  
+}*/
+
+#about {
+	background: white;
+}
+
+#portfolio {
+	background: #f4f4f4;
+}
+
+#portfolio > h3 {
+	color: #53d8fb;
+}
+
+#contact {
+	background: #b027ff;
+	color: white;
+}
+
+#contact a {
+	color: white;
+}
+
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+	//margin-right:auto;
+	//margin-left:auto
+}
