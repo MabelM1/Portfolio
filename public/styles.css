@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Spectral+SC");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Josefin+Sans|EB+Garamond");
 
 body {
 	height: 100%;
 	width: 100%;
-	font-family: "Spectral SC", serif;
+
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.1em;
 }
 
 h1 {
@@ -31,7 +33,8 @@ h1 {
 	//color: rgba(36, 130, 50, 1);
 	//color: rgba(221, 110, 66, 1);
 	//color: rgba(161, 204, 165, 1);
-	color: #53d8fb;
+	//color: #53d8fb;
+	color: #b027ff;
 }
 
 #about p {
@@ -40,7 +43,12 @@ h1 {
 }
 
 #home {
-	background: #ff0084 no-repeat center center fixed;
+	//background: #ff0084 no-repeat center center fixed;
+	background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.2)),
+		url("https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg?auto=compress&cs=tinysrgb&h=350")
+			no-repeat center center fixed;
+	//background: linear-gradient(to bottom, #cc66ff 0%, #ff0066 100%) no-repeat
+	//center center fixed;
 	display: table;
 	height: 100vh;
 	position: relative;
@@ -53,19 +61,15 @@ h1 {
 	text-align: center;
 	vertical-align: middle;
 	color: white;
-	//z-index: 2;
+	font-family: "EB Garamond", serif;
 }
 
-/*.circle{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 45vh;
-  height: 40vh;
-  background: #22DBE6;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);  
-}*/
+.box {
+	width: 30em;
+	display: inline-block;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	text-align: center;
+}
 
 #about {
 	background: white;
@@ -76,7 +80,8 @@ h1 {
 }
 
 #portfolio > h3 {
-	color: #53d8fb;
+	//color: #53d8fb;
+	color: #b027ff;
 }
 
 #contact {
@@ -91,8 +96,6 @@ h1 {
 .container-fluid {
 	padding-right: 0;
 	padding-left: 0;
-	//margin-right:auto;
-	//margin-left:auto
 }
 
 .freelance {
