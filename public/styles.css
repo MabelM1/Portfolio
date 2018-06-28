@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto|Josefin+Sans|EB+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Bree+Serif|EB+Garamond");
 
 body {
 	height: 100%;
 	width: 100%;
-
 	font-family: "Roboto", sans-serif;
 	letter-spacing: 0.1em;
 }
@@ -30,30 +29,28 @@ h1 {
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-	//color: rgba(36, 130, 50, 1);
-	//color: rgba(221, 110, 66, 1);
-	//color: rgba(161, 204, 165, 1);
-	//color: #53d8fb;
 	color: #b027ff;
 }
 
-#about p {
-	letter-spacing: 0.1em;
-	line-height: 2em;
-}
-
-#home {
+.home {
 	//background: #ff0084 no-repeat center center fixed;
-	background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.2)),
+	/*background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.2)),
 		url("https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg?auto=compress&cs=tinysrgb&h=350")
-			no-repeat center center fixed;
-	//background: linear-gradient(to bottom, #cc66ff 0%, #ff0066 100%) no-repeat
-	//center center fixed;
+			no-repeat center center fixed;*/
+	background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.2)),
+		url("./images/pexels-photo.jpg") no-repeat center center fixed;
 	display: table;
-	height: 100vh;
+	height: 50vh;
 	position: relative;
 	width: 100%;
 	background-size: cover;
+}
+
+.box {
+	width: 30em;
+	display: inline-block;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	text-align: center;
 }
 
 .landing-text {
@@ -64,38 +61,54 @@ h1 {
 	font-family: "EB Garamond", serif;
 }
 
-.box {
-	width: 30em;
-	display: inline-block;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-	text-align: center;
+.about p {
+	letter-spacing: 0.1em;
+	line-height: 2em;
 }
 
-#about {
+.about {
 	background: white;
 }
 
-#portfolio {
+.portfolio {
 	background: #f4f4f4;
 }
 
-#portfolio > h3 {
-	//color: #53d8fb;
+.portfolio > h3 {
 	color: #b027ff;
+	margin: 1em;
+	font-family: "Bree Serif", serif;
 }
 
-#contact {
+.blog > h3 {
+	//color: #53d8fb;
+	color: #b027ff;
+	margin: 1em;
+	font-family: "Bree Serif", serif;
+}
+
+/* primary button */
+.btn-primary {
+	background-color: #fff;
+	color: #b027ff;
+	border-color: #b027ff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	background-color: #b027ff;
+	color: #fff;
+	border-color: #b027ff;
+}
+
+.contact {
 	background: #b027ff;
 	color: white;
 }
 
-#contact a {
+.contact a {
 	color: white;
-}
-
-.container-fluid {
-	padding-right: 0;
-	padding-left: 0;
 }
 
 .freelance {

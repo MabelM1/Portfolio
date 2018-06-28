@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 
-	<body id="home" data-spy="scroll" data-target=".navbar" data-offset="20">
+	<body id="home" data-spy="scroll" data-target=".navbar" data-offset="30">
 		  <!-- Navbar bg-light-->
   <nav class="navbar navbar-expand-lg navbar-light navbar-custom  fixed-top">
    
@@ -17,20 +17,21 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#about">About</a>
-        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-        <a class="nav-item nav-link" href="#contact">Contact</a>
+        <a class="nav-item nav-link active" href="#home">HOME<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#about">ABOUT</a>
+        <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
+        <a class="nav-item nav-link" href="#blog">BLOG</a>
+        <a class="nav-item nav-link" href="#contact">CONTACT</a>
       </div>
     </div>
   </nav>
   <!--/Navbar navbar-dark bg-primary-->
   
   <!-- Landing Page-->
-  <div id="home">
+  <div id="home" class="home">
     <div class="landing-text text-center">    
       <div class="box">
-        <h1 >Mabel Hernandez</h1>
+        <h1>Mabel Hernandez</h1>
         <h3 >Web Developer</h3>
       </div> 
     </div>
@@ -38,115 +39,169 @@
   <!-- /Landing Page-->
   
  <!-- About-->
- <div id="about" class="container-fluid pt-4">
-    <!--about row -->
+<div id="about" class="about container-fluid p-5 mt-3 mb-3">
+  <!--about row -->
+  <div class="container">
     <div class="row">      
-          <div class="col-xm-6 col-md-5">
-          <img class= "img-fluid rounded  d-inline p-4" src="https://picsum.photos/400/400" alt="image">
-          </div>
-
-          <div class="col-xm-6 col-md-6">
-          <p class="text-left pl-4">My name is Mabel and I am a fullstack web developer. Early in my
-            career, I worked as a payroll specialist but with the passing of time I found myself craving more of a challenge. I enrolled in school and now have a degree in Computer Science. I spend a lot of time reading and coding as it helps cement what I have learned but when I am not coding, I enjoy trying new restaurants, traveling to new places and exploring my favorite place in the world: NYC! I would love to link up with
-            an organization where I can contribute and work with others who will help me continue my
-            grow as a developer. </p>
-         </div>  
+      <div class="col ">
+        <p class="">My name is Mabel and I am a freelance fullstack web developer. I started coding because I wanted a career that was equaling challenging as well as rewarding. As someone who benefits from technology on a daily basis, I also want to have an input in the future of this industry.</p>
+        <p>Before coding, I worked as a payroll specialist but with the passing of time I found myself craving more of a challenge. I enrolled in school and now have a degree in Computer Science.</p>
+        <p>When I am not coding, I enjoy trying new restaurants, traveling to new places and exploring my favorite place in the world: NYC!</p>
+        <p>I would love to link up with an organization where I can contribute to their goals and work with others who will help me continue to grow as a developer. </p>
+      </div>
     </div>
+  </div>
+
+</div>
 <!-- /About-->  
   
-   <!-- Portfolio section-->
-   <div id="portfolio" class="container-fluid p-4">
-     <h3 class="text-center"><strong>PORTFOLIO</strong></h3>
-     <div class="row">
-     <div class="card-deck">
-    <div class="card">  
-    <img class="card-img-top" src="./images/panini.png" alt="Panini card image">
-    <div class="card-body">
-      <h5 class="card-title">PANINI CARD TRACKER</h5>
-      <p class="card-text">This app was built to keep track of the Panini world cup stickers.</p>
-      <p> Technology stack: </p>
-      <ul>
-        <li>React</li>
-        <li>MongoDb</li>
-        <li>MLab</li>
-        <li>Express</li>
-        <li>Node JS</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>Heroku</li>
-      </ul>
+<!-- Portfolio section-->
+<div id="portfolio" class="portfolio container-fluid p-4 pb-5">
+  <h3 class="text-center p-2"><strong>PORTFOLIO</strong></h3>
+  
+  <div class="row">
 
+      <div class="col-lg-4 d-flex align-items-stretch pb-3">
+        <div class="card">  
+          <img class="card-img-top img-fluid" src="./images/panini.png" alt="Panini card image">
+          <div class="card-body">
+            <h5 class="card-title">PANINI CARD TRACKER</h5>
+            <p class="card-text">This app was built to keep track of the Panini world cup stickers.</p>
+            <p> Technology stack: </p>
+            <ul>
+              <li>React</li>
+              <li>MongoDb</li>
+              <li>MLab</li>
+              <li>Express</li>
+              <li>Node JS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+        </div>
+      </div>   
+      
+      
+      <div class="col-lg-4 d-flex align-items-stretch pb-3">
+        <div class="card">
+          <a href="https://enigmatic-plateau-88470.herokuapp.com/#/">
+          <img class="card-img-top img-fluid" src="./images/readinglistapp.png" alt="Reading list App image">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">READING LIST APP</h5>
+            <p class="card-text">I built this app using the NY Times Bestseller's list API. I also
+            wanted to create a reading list to save interesting books. </p>
+            <p> Technology stack: </p>
+            <ul>
+              <li>React</li>
+              <li>Firebase</li>
+              <li>Express</li>
+              <li>Node JS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-4 d-flex align-items-stretch pb-3">
+        <div class="card">
+          <a href="https://frozen-peak-85144.herokuapp.com">
+          <img class="card-img-top img-fluid" src="./images/freelance1.png" alt="freelance project image">
+          </a>
+          <div class="card-body freelance">
+            <h5 class="card-title">FREELANCE PROJECT</h5>
+            <p class="card-text">This web page was built for a client who was looking for a simple page to showcase previous work.</p>
+            <ul>
+              <li>Express</li>
+              <li>Node JS</li>
+              <li>HTML</li>
+              <li>CSS</li>      
+              <li>Bootstrap</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+  </div> 
+</div><!-- /Portfolio section--> 
+
+<!-- Blog section-->
+<div id="blog" class="blog container-fluid p-4 pb-5 mb-5">
+  <h3 class="text-center p-2"><strong>BLOG</strong></h3>
+  <div class="row">
+    <div class="col-xs-12 col-md-4 d-flex align-items-stretch pb-3">
+      <div class="card" > 
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit dapibus ultrices. Integer iaculis aliquam quam ut faucibus. Nulla dictum, odio et ultrices porttitor, elit orci varius lectus, nec mattis risus diam sed urna.</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-primary">Read on Medium</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card">
-    <a href="https://enigmatic-plateau-88470.herokuapp.com/#/">
-    <img class="card-img-top" src="./images/readinglistapp.png" alt="Reading list App image">
-    </a>
-    <div class="card-body">
-      <h5 class="card-title">READING LIST APP</h5>
-      <p class="card-text">I built this app using the NY Times Bestseller's list API. I also
-      wanted to create a reading list to save interesting books. </p>
-      <p> Technology stack: </p>
-      <ul>
-        <li>React</li>
-        <li>Firebase</li>
-        <li>Express</li>
-        <li>Node JS</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>Heroku</li>
-      </ul>
+
+    <div class="col-md-4 d-flex align-items-stretch pb-3">
+      <div class="card" > 
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-primary">Read on Medium</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card">
-    <a href="https://frozen-peak-85144.herokuapp.com">
-    <img class="card-img-top" src="./images/freelance1.png" alt="freelance project image">
-    </a>
-    <div class="card-body freelance">
-      <h5 class="card-title">FREELANCE PROJECT</h5>
-      <p class="card-text">This web page was built for a client who was looking for a simple page to showcase previous work.</p>
-       <ul>
-        <li>Express</li>
-        <li>Node JS</li>
-        <li>HTML</li>
-        <li>CSS</li>      
-        <li>Bootstrap</li>
-        <li>Heroku</li>
-      </ul>
+ 
+    <div class="col-md-4 d-flex align-items-stretch pb-3">
+      <div class="card" > 
+        <div class="card-body ">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-primary ">Read on Medium</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-     </div> 
-   </div>
-   <!-- /Portfolio section--> 
+
+
+
+
+<!-- /Blog section-->
   
-   <!-- Contact section--> 
-   <div id="contact" class="container-fluid p-4">
-     <div class="row">
-     <div class="col-xs-12 mx-auto">
-        <h3 class="text-center contact-header"><strong>CONTACT ME</strong></h2>
-     </div>
-     </div>
-     <div class="row">
-       <div class="col-xs-12 mx-auto">
-          <p class="text-center">E-mail: @gmail.com</p>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-xs-12 mx-auto">
-         <a href="#"><i class="fa fa-codepen"> Codepen</i></a>
-         <a href="#"><i class="fa fa-github"> Github</i></a>
-         <a href="#"> <i class="fa fa-twitter">Twitter</i></a>
-       </div>
-     </div>
+<!-- Contact section--> 
+<div id="contact" class="contact container-fluid p-4  pt-5">
+  <div class="row">
+    <div class="col-xs-12 mx-auto">
+      <h3 class="text-center contact-header pb-3"><strong>CONTACT ME</strong></h2>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 mx-auto">
+      <p class="text-center">E-mail: MabelHernandezdev@gmail.com</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 mx-auto">
+      <a href="#"><i class="fa fa-codepen"> Codepen</i></a>
+      <a href="https://github.com/MabelM1"><i class="fa fa-github"> Github</i></a>
+      <a href="#"> <i class="fa fa-twitter">Twitter</i></a>
+    </div>
+  </div>
+</div>
 <!-- /contact section-->
 	<script src="js/jquery.js"></script>
-	<script src="/js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	
-  	
+	<script src="js/umd/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>  	
 	</body>
 </html>
