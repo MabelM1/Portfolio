@@ -37,7 +37,7 @@ h1 {
 }
 
 .home {
-	background: /*linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)),*/ url("./images/code-coding-computer-34676.jpg");
+	background: url("./images/code-coding-computer-34676.jpg");
 	min-height: 360px;
 	background-size: cover;
 }
