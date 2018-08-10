@@ -113,6 +113,11 @@ h1 {
 	border-color: #b027ff;
 }
 
+.link-buttons {
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
 .contact {
 	background: #b027ff;
 	color: white;
