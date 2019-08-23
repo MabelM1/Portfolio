@@ -64,9 +64,25 @@ h1 {
 }
 
 .about {
-	background: white;
+	background: #f4f4f4;
 	padding-top: 4em;
 	padding-bottom: 3em;
+}
+
+.about-left {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.about-left img {
+	display: inline;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+	margin-left: -35%;
 }
 
 .portfolio {
@@ -75,19 +91,16 @@ h1 {
 	padding-bottom: 5em;
 }
 
-.portfolio > h3 {
-	color: #b027ff;
-	margin: 1em;
-	font-family: "Bree Serif", serif;
-}
-
 .blog {
 	padding-top: 3em;
 	padding-bottom: 6em;
 	background-color: white;
 }
 
-.blog > h3 {
+.about > h3,
+.blog > h3,
+.portfolio > h3,
+.stack > h3 {
 	color: #b027ff;
 	margin: 1em;
 	font-family: "Bree Serif", serif;

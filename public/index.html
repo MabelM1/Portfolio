@@ -16,6 +16,7 @@
 
       gtag('config', 'UA-121971151-1');
     </script>
+    <script src="https://kit.fontawesome.com/9dbcfe6959.js"></script>
 	</head>
 
 	<body id="home" data-spy="scroll" data-target=".navbar" data-offset="5">
@@ -29,6 +30,7 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#home">HOME<span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="#about">ABOUT</a>
+        <a class="nav-item nav-link" href="#stack">STACK</a>
         <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
         <a class="nav-item nav-link" href="#blog">BLOG</a>
         <a class="nav-item nav-link" href="#contact">CONTACT</a>
@@ -56,27 +58,88 @@
   <!-- /Landing Page-->
   
  <!-- About-->
-<div id="about" class="about container">
+<div id="about" class="about container-fluid">
   <!--about row -->
-  
-    <div class="row">      
-      <div class="col ">
-        <p class="">My name is Mabel and I am a freelance fullstack web developer. I started coding because I wanted a career that was equaling challenging as well as rewarding. As someone who benefits from technology on a daily basis, I also want to have an input in the future of this industry.</p>
-        <p>Before coding, I worked as a payroll specialist but my passion for coding and creating new things led me to change careers. </p>
-        <p>When I am not coding, I enjoy trying new restaurants, traveling to new places and exploring my favorite place in the world: NYC!</p>
-        <p>I would love to link up with an organization where I can contribute to their goals. If you'd like to know more contact me.</p>
+    <h3 class="text-center p-2 "><strong>ABOUT</strong></h3>
+    <div class="container">
+    <div class="row ">   
+      <div class="col m-1">
+        <div class="about-left mx-auto mb-2">
+          <img src="images/MabelH.jpg"/>
+        </div>     
+      </div>
+      <div class="col">
+        <p class="">Mabel is a Frontend Engineer with a passion for coding and solving problems. She has experience building Single Page Applications using technologies such as JavaScript, React, Redux, Bootstrap, Enzyme and Jest. She has a strong desire for continuing education and learning about other tech stacks.</p>
+      
+        <p>Mabel is looking to connect with organizations where she can collaborate with others. If you'd like to know more contact her.</p>
       </div>
     </div>
-  
+  </div>
 
 </div>
 <!-- /About-->  
+
+ <!-- Experience -->
+<div id="stack" class="stack container p-3 pb-5">
+  <!--about row -->
+  <h3 class="text-center p-2 pb-3"><strong>TECH STACK</strong></h3>
+    <div class="row pb-6">      
+      <div class="col m-2">
+       <i class="fab fa-js-square fa-3x"></i>
+      </div>
+      <div class="col m-2">
+       <i class="fab fa-react fa-3x"></i>
+      </div>
+      <div class="col m-2">
+      <i class="fab fa-html5 fa-3x"></i>
+      </div>
+    </div>
+
+    <div class="row mt-4 ">
+      <div class="col m-2">
+        <i class="fab fa-css3-alt fa-3x"></i>
+      </div>
+       <div class="col m-2">
+       <i class="fab fa-bootstrap fa-3x"></i>
+       </div>
+       <div class="col m-2">
+       <i class="fab fa-node fa-3x"></i>
+       </div> 
+
+    </div>
+</div>
+<!-- /Experience--> 
   
 <!-- Portfolio section-->
 <div id="portfolio" class="portfolio container-fluid">
-  <h3 class="text-center p-2"><strong>PORTFOLIO</strong></h3>
-  
+  <h3 class="text-center p-2"><strong>PORTFOLIO</strong></h3> 
   <div class="row">
+
+      <div class="col-lg-6 d-flex align-items-stretch">
+        <div class="card">  
+          <img class="card-img-top img-fluid" src="./images/weather-app-2.jpg" alt="Panini card image">
+          <div class="card-body">
+            <h5 class="card-title">WEATHER APP</h5>
+            <p class="card-text">This app shows users a 5 day weather forecast based on the location entered. It is fully tested using Enzyme and Jest.</p>
+            <p> Technology stack: </p>
+            <ul>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Express</li>
+              <li>Node.js</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+            <div class="text-center pb-3">
+            <a href="https://github.com/MabelM1/weather-app-v2" class="btn btn-primary link-buttons">Github</a>
+            <a href="https://weather-app-new-2.herokuapp.com" class="btn btn-primary link-buttons">Demo</a>
+        </div>
+        </div>
+      </div>  
+
 
       <div class="col-lg-6 d-flex align-items-stretch">
         <div class="card">  
@@ -129,8 +192,6 @@
             <a href="https://github.com/MabelM1/reading-list-app" class="btn btn-primary link-buttons">Github</a>
             <a href="https://enigmatic-plateau-88470.herokuapp.com/#/" class="btn btn-primary link-buttons">Demo</a>
           </div>
-           
-
         </div>
       </div>
 
@@ -237,34 +298,6 @@
           </div>
         </div>
       </div> 
-
-    <div class="col-lg-12 align-self-center d-flex justify-content-center ">
-      <div class="card">
-        <a href="https://frozen-peak-85144.herokuapp.com">
-        <img class="card-img-top img-fluid" src="./images/freelance.jpg" alt="freelance project image">
-        </a>
-        <div class="card-body freelance">
-          <h5 class="card-title">FREELANCE PROJECT</h5>
-          <p class="card-text">This web page was built for a client who was looking for a simple page to showcase previous 
-          home improvement and remodeling work.</p>
-          <p> Technology stack: </p>
-          <ul>
-            <li>Express</li>
-            <li>Node.js</li>
-            <li>HTML</li>
-            <li>CSS</li>      
-            <li>Bootstrap</li>
-            <li>Heroku</li>
-          </ul>
-        </div>
-          <div class="text-center pb-3">
-            <a href="https://github.com/MabelM1/freelance-client-web" class="btn btn-primary link-buttons">Github</a>
-            <a href="https://frozen-peak-85144.herokuapp.com" class="btn btn-primary link-buttons">Demo</a>
-          </div>
-        </div>
-      </div> 
-
-
   </div> 
 </div><!-- /Portfolio section--> 
 
