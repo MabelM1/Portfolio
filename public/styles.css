@@ -100,7 +100,7 @@ h1 {
 .about > h3,
 .blog > h3,
 .portfolio > h3,
-.stack > h3 {
+.stack h3 {
 	color: #b027ff;
 	margin: 1em;
 	font-family: "Bree Serif", serif;
