@@ -74,7 +74,8 @@ function server() {
 		        extensions: ["html"]
 		    }
 		},
-		open:false
+		open:false,
+		port: process.env.PORT || 3000
 	})
 
 	gulp
