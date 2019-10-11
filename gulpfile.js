@@ -69,7 +69,8 @@ function server() {
 	browserSync.init({
 		notify:false,
 		server: {
-			baseDir:destination
+			baseDir:destination,
+			index: 'index.html'
 		}
 	})
 
