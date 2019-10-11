@@ -70,7 +70,9 @@ function server() {
 		notify:false,
 		server: {
 			baseDir:destination,
-			index: 'index.html'
+			serveStaticOptions: {
+		        extensions: ["html"]
+		    }
 		},
 		open:false
 	})
