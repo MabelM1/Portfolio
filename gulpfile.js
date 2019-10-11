@@ -71,7 +71,8 @@ function server() {
 		server: {
 			baseDir:destination,
 			index: 'index.html'
-		}
+		},
+		open:false
 	})
 
 	gulp
