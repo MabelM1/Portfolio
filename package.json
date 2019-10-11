@@ -13,8 +13,6 @@
   },
   "dependencies": {
     "browser-sync": "^2.26.7",
-    "compression": "^1.7.4",
-    "express": "^4.17.1",
     "gulp-htmlmin": "^5.0.1",
     "gulp": "^4.0.2",
     "gulp-csso": "^3.0.1",
