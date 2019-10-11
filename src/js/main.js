@@ -24,12 +24,12 @@ function myFunction() {
 
 function handleClickLink(event) {
 
-	const section = event.target.dataset.section;		
+	var section = event.target.dataset.section;		
 	document.getElementById(section).scrollIntoView({ behavior: 'smooth'});
 }
 
 
-document.querySelectorAll('#main-nav a').forEach((elem) => {
+document.querySelectorAll('#main-nav a').forEach(function (elem) {
 
   elem.addEventListener('click', handleClickLink);
 });
