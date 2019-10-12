@@ -150,16 +150,18 @@ ul#main-nav.sticky {
 	.projects {
 		display: flex;
 		flex-wrap: wrap;
-		//align-items: stretch;
+		justify-content: center;
+		align-items: stretch;
 		padding: 0.5em 0.5em 2em 0.5em;
 
-		.project {
+		/*.project {
 			flex: 1;
-		}
+		}*/
 	}
 
 	.card {
 		transition: all 0.2s ease-in-out;
+		//flex: 1;
 	}
 
 	.card:hover {
