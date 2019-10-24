@@ -162,7 +162,7 @@ ul#main-nav.sticky {
 
 	.card {
 		transition: all 0.2s ease-in-out;
-		width: 30rem;
+		width: 28rem;
 	}
 
 	.card:hover {
@@ -170,7 +170,8 @@ ul#main-nav.sticky {
 	}
 
 	.card-body {
-		padding: 0 1em;
+		padding: 0.8em 1em;
+		border-top: 0.1px groove rgba(158, 132, 133, 0.1);
 	}
 
 	.card-body ul {
@@ -185,7 +186,7 @@ ul#main-nav.sticky {
 	}
 
 	.card-link .button {
-		margin: 0.5em;
+		margin: 1em;
 		border: 2px solid $accent-color;
 		color: $dark-color;
 	}
