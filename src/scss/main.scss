@@ -189,7 +189,7 @@ img {
 
 	.card {
 		transition: all 0.2s ease-in-out;
-		width: 28rem;
+		width: 20rem;
 	}
 
 	.card:hover {
@@ -228,8 +228,15 @@ img {
 #contact .contact {
 	display: flex;
 	justify-content: space-evenly;
-	padding-bottom: 6em;
+	padding-bottom: 2em;
 	text-align: center;
+	flex-wrap: wrap;
+	margin: 0.5em;
+
+	.contact-icon {
+		margin: 1em;
+		padding: 0.5em;
+	}
 
 	.contact-icon .contact-info {
 		text-align: center;
