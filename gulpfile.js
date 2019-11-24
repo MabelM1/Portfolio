@@ -67,6 +67,7 @@ function watch() {
 
 function server() {
 	browserSync.init({
+		ghostMode:false,
 		notify:false,
 		server: {
 			baseDir:destination,
@@ -76,6 +77,7 @@ function server() {
 		},
 		open:false,
 		port: process.env.PORT || 3000
+
 	})
 
 	gulp
