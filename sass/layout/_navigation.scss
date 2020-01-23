@@ -1,0 +1,35 @@
+.navigation {
+	@media only screen and (min-width: 600px) {
+		flex-basis: 25%;
+	}
+
+	&__list {
+		background-color: #5f4b44;
+		background-color: var(--color-5);
+		padding: 0.5rem;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	&__item {
+		flex: 1;
+	}
+	&__link {
+		display: block;
+
+		margin: 0 0.1em;
+
+		color: black;
+		text-align: center;
+	}
+	&--side {
+		height: 100vh;
+	}
+}
+
+.navigation .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+

@@ -1,0 +1,63 @@
+body {
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.13rem;
+	font-weight: 300;
+	line-height: 1.7;
+	font-size: 1.6rem;
+}
+
+.heading-primary,
+.heading-secondary {
+	font-weight: 700;
+	color: white;
+}
+
+.secondary-text {
+	line-height: 1.8;
+	font-size: 1.8rem;
+}
+
+.card_heading-secondary {
+	letter-spacing: 0.1rem;
+
+	color: --color-3;
+}
+
+.section-heading-text {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	color: var(--color-3);
+
+	font-weight: 700;
+	letter-spacing: 0.15rem;
+	line-height: 2;
+	position: relative;
+}
+
+.section-heading-text::after {
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+	display: block;
+	width: 40%;
+	height: 8%;
+	background-color: var(--color-1);
+	text-align: center;
+}
+
+.secondary-text {
+	margin-bottom: 1rem;
+}
+
+.contact__info {
+	font-size: 1.4rem;
+	color: black;
+	cursor: pointer;
+}
+
+.copyright {
+	padding: 2rem 0;
+	font-size: 1.4rem;
+	text-align: center;
+}

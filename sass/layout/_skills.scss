@@ -1,0 +1,49 @@
+.skills {
+	padding: 1rem 2.5rem;
+
+	&__content {
+		border: 5px solid #03fcdb;
+		background: linear-gradient(
+			to right,
+			white 33%,
+			#edd1ec 33% 66%,
+			white 66%
+		);
+		background: var(--color-2);
+	}
+
+	&__list {
+		display: flex;
+
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem 0rem;
+		box-shadow: 0 0 0.35rem rgba(0, 0, 0, 0.5);
+
+		@media only screen and (min-width: 600px) {
+			flex-direction: row;
+			flex-wrap: wrap;
+			text-align: center;
+		}
+	}
+
+	&__item {
+		flex: 1;
+
+		@media only screen and (min-width: 600px) {
+			flex-basis: 50%;
+		}
+	}
+
+	&__item:nth-child(even) {
+		animation-name: moveInRight;
+		animation-duration: 3s;
+		animation-timing-function: ease-out;
+	}
+
+	&__item:nth-child(odd) {
+		animation-name: moveInLeft;
+		animation-duration: 3s;
+		animation-timing-function: ease-out;
+	}
+}

@@ -1,1 +1,0 @@
-!function(){window.onscroll=function(){window.pageYOffset>e?t.classList.add("sticky"):t.classList.remove("sticky")};var t=document.getElementById("main-nav"),e=t.offsetTop;function n(t){var e=t.target.dataset.section;document.getElementById(e).scrollIntoView({behavior:"smooth"})}document.querySelectorAll("#main-nav a").forEach(function(t){t.addEventListener("click",n)})}();

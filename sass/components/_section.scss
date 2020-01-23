@@ -1,0 +1,39 @@
+.section {
+	&__overlay {
+		background-color: white;
+		padding: 1.5rem 0;
+		margin: 2rem 0rem;
+		box-shadow: 0 0 0.35rem rgba(0, 0, 0, 0.5);
+		display: block;
+
+		display: flex;
+		justify-content: center;
+	}
+
+	&__title {
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 0.3rem;
+		font-size: 1.8rem;
+
+		&--circle {
+			background: #b7ade1;
+			background: var(--color-1);
+			color: white;
+			color: var(--color-3);
+			border-radius: 50%;
+			height: 12rem;
+			width: 12rem;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			background-clip: content-box;
+			padding: 0.5rem;
+
+			border: 2px solid navy;
+			border: 2px solid var(--color-5);
+		}
+	}
+}

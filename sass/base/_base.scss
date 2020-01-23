@@ -1,0 +1,53 @@
+:root {
+	--color-1: rgba(238, 189, 231, 1);
+
+	--color-2: rgba(245, 245, 239, 1);
+
+	--color-3: rgba(44, 54, 63, 1);
+
+	--color-4: rgba(116, 242, 206, 1);
+
+	--color-5: rgba(166, 244, 220, 1);
+
+	--color-6: rgba(220, 220, 220, 1);
+
+	--percent: 50%;
+
+	--medium-screens: 60rem;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	width: 100%;
+}
+
+body {
+	background-color: #fcfdfd;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 96rem;
+	margin: 0 auto;
+}
+
+

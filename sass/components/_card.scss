@@ -1,0 +1,81 @@
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2rem 0;
+	background-color: white;
+
+	@media only screen and (min-width: 600px) {
+		flex-wrap: nowrap;
+
+		&:not(:last-child) {
+			margin-bottom: 4rem;
+		}
+
+		max-height: 40rem;
+	}
+
+	&__image {
+		padding-bottom: 1rem;
+		display: block;
+		width: 100%;
+
+		object-fit: cover;
+		border: 1px solid #ddd;
+
+		@media only screen and (min-width: 600px) {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&__body {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		padding: 1rem 0;
+
+		box-shadow: 0 0 0.35rem rgba(0, 0, 0, 0.5);
+
+		@media only screen and (min-width: 600px) {
+			flex: 0 0 50%;
+			justify-content: space-evenly;
+		}
+	}
+
+	&__title {
+		padding: 1rem 0;
+		position: relative;
+	}
+
+	&__text {
+		padding-top: 1rem;
+		align-self: flex-start;
+		margin-left: 1rem;
+	}
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+
+		&-item {
+			flex-basis: 50%;
+			text-align: center;
+			//align-items: baseline;
+		}
+	}
+
+	&__link {
+		padding: 1rem;
+		margin-bottom: 2.5rem;
+
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+}
+
+.offset {
+	width: 100%;
+}
