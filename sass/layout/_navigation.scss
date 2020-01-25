@@ -4,22 +4,30 @@
 	}
 
 	&__list {
-		background-color: #5f4b44;
 		background-color: var(--color-5);
-		padding: 0.5rem;
 		display: flex;
 		justify-content: space-evenly;
 	}
 	&__item {
 		flex: 1;
+		height: 100%;
 	}
+
 	&__link {
+		transition: background-color 0.5s;
+		padding: 1rem 0.3rem;
 		display: block;
 
-		margin: 0 0.1em;
+		//margin: 0 0.1em;
 
 		color: black;
 		text-align: center;
+		cursor: pointer;
+
+		&:hover {
+			background-color: var(--color-4);
+			color: var(--color-3);
+		}
 	}
 	&--side {
 		height: 100vh;
@@ -32,4 +40,3 @@
 	width: 100%;
 	z-index: 2;
 }
-

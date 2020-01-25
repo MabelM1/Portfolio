@@ -8,6 +8,7 @@
 		border-radius: 10rem;
 		border: none;
 		cursor: pointer;
+		transition: background-color 0.5s;
 	}
 
 	&:active,
@@ -16,8 +17,13 @@
 		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 	}
 
+	&:hover {
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+		background-color: black;
+		color: var(--color-5);
+	}
+
 	&--blue {
-		background-color: #03fcdb;
 		background-color: var(--color-5);
 		color: black;
 	}
