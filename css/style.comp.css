@@ -127,8 +127,8 @@ body {
     border: 1px solid #ddd; }
     @media only screen and (min-width: 600px) {
       .card__image {
-        width: 100%;
-        height: 100%; } }
+        height: 100%;
+        object-fit: contain; } }
   .card__body {
     flex: 1;
     display: flex;
@@ -200,14 +200,19 @@ body {
   display: inline-block;
   border-radius: 10rem;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: background-color 0.5s; }
 
 .btn:active, .btn:focus {
   outline: none;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
+.btn:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  background-color: black;
+  color: var(--color-5); }
+
 .btn--blue {
-  background-color: #03fcdb;
   background-color: var(--color-5);
   color: black; }
 
@@ -258,20 +263,24 @@ body {
     flex-basis: 25%; } }
 
 .navigation__list {
-  background-color: #5f4b44;
   background-color: var(--color-5);
-  padding: 0.5rem;
   display: flex;
   justify-content: space-evenly; }
 
 .navigation__item {
-  flex: 1; }
+  flex: 1;
+  height: 100%; }
 
 .navigation__link {
+  transition: background-color 0.5s;
+  padding: 1rem 0.3rem;
   display: block;
-  margin: 0 0.1em;
   color: black;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
+  .navigation__link:hover {
+    background-color: var(--color-4);
+    color: var(--color-3); }
 
 .navigation--side {
   height: 100vh; }
